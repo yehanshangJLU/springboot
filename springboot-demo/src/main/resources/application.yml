@@ -1,0 +1,11 @@
+#数据源
+spring:
+  datasource:
+    url: jdbc:mysql://39.100.39.63:3306/db_gupao_springboot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#mybatis托管mapper文件
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
