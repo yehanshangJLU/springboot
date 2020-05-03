@@ -1,5 +1,7 @@
 package com.simpleFactoryPattern;
 
+import java.util.Calendar;
+
 /**
  * 简单工厂模式  Simple Factory Pattern
  * 由一个 工厂对象决定 创建出哪一种 产品类的实例
@@ -7,7 +9,8 @@ package com.simpleFactoryPattern;
  */
 public class SimpleFactoryPattern {
     public static void main(String[] args) {
-
+        //时间类  Calendar 默认创建初始化类，根据国家 创建
+        Calendar.getInstance();
     }
 
 }
